@@ -100,7 +100,9 @@
 .Restore,
 .Scale,
 .TeethWhite,
-.Veneer {
+.Veneer,
+.Tattoo,
+.pigmentation {
   display: flex;
 }
 
