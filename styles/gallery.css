@@ -1,0 +1,145 @@
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.gallery-cont {
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+}
+
+.head {
+  text-align: center;
+  font-size: 34px;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.photo-cont {
+  width: 80vw;
+  height: 55vh;
+  border: 10px solid black;
+  background-color: pink;
+}
+
+.gallery-cont ul {
+  display: flex;
+  padding: 1em;
+  height: 10vh;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}
+
+.gallery-cont ul li {
+  padding-bottom: 2em;
+  min-width: 160px;
+  text-align: center;
+}
+
+.gallery-cont ul li a {
+  color: black;
+  font-weight: 600;
+}
+
+.gallery-cont ul li a:hover {
+  color: #57ccc3;
+}
+
+.top-cont {
+  height: 10vh;
+  margin-bottom: 1.5em;
+}
+
+.bottom-cont {
+  overflow: scroll;
+  height: 40vh;
+}
+
+.indiv {
+  padding-bottom: 1.5em;
+}
+
+.indiv {
+  overflow: scroll;
+}
+
+.scar-rev,
+.pigmentation,
+.Abdominoplasty,
+.Botox,
+.Breast-augmentation,
+.Breast-lift,
+.Breast-red,
+.Dimple,
+.Ht,
+.Lipo,
+.Rhino,
+.Male-brst,
+.Composite,
+.Braces,
+.Crown,
+.Denture,
+.Gum,
+.Restore,
+.Scale,
+.TeethWhite,
+.Veneer {
+  display: flex;
+}
+
+.gallery-cont img {
+  width: 430px;
+  height: 310px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .gallery-cont{
+        margin: 10vh 5vw;
+    }
+
+    .photo-cont{
+        height: 60vh;
+        width: 90vw;
+    }
+
+  .top-cont {
+    height: 16vh;
+  }
+
+  .bottom-cont{
+    height: 35vh;
+  }
+
+  .gallery-cont img {
+    height: 300px;
+    width: 320px;
+  }
+
+  .gallery-cont ul li {
+    text-align: center;
+    min-width: 160px;
+    height: 10px;
+  }
+
+  .gallery-cont ul {
+    justify-content: flex-start;
+  }
+}
