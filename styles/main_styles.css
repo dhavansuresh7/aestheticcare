@@ -247,6 +247,11 @@ section {
   background-position: right center;
 }
 
+.background_image5{
+  background-image: url(../images/dermat.jpg);
+  background-position: center center;
+}
+
 .nopadding {
   padding: 0px !important;
 }
