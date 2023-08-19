@@ -43,6 +43,29 @@
       .team_title {
         font-size: 18px;
       }
+      #more,
+      #more1,
+      #more2,
+      #more3,
+      #more4,
+      #more5 {
+        display: none;
+      }
+      .team_text button {
+        background-color: palevioletred; /* Green */
+        border: none;
+        color: white;
+        margin-top: 1em;
+        padding: 5px 16px;
+        border-radius: 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      .team_text{
+        padding: 0 25px;
+      }
     </style>
   </head>
   <body>
@@ -142,7 +165,16 @@
         </nav>
         <div class="menu_extra">
           <!-- <div class="menu_link"> </div> -->
-          <div class="menu_link">
+          <div
+            class="menu_link"
+            style="
+              font-size: 20px;
+              background-color: palevioletred;
+              width: 100px;
+              text-align: center;
+              border-radius: 10px;
+            "
+          >
             <a
               href="https://api.whatsapp.com/send?phone=+919606633888&text=Hi%20I%20would%20like%20to%20know%20more%20about%20Whiteswan%20Aesthetics%20and%20the%20services%20offered."
             >
@@ -462,7 +494,32 @@
                   <div class="team_name"><a href="#">Dr Poojitha</a></div>
                   <div class="team_title">Consultant Dermatologist</div>
                   <div class="team_text">
-                    <!-- <p>Ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr.Poojitha is a certified Cosmetic dermatologist, she
+                      pursued her masters in Dermatology ,Venerology and leprosy
+                      [MD(DVL)] <span id="dots">...</span
+                      ><span id="more"
+                        >from prestigious JSS Academy of Higher Education and
+                        Research, Mysore. She is known for her excellent patient
+                        centric care and gentleness in treating her patients.
+                        she believes in comprehensive approach to dermatological
+                        medicine. She is a life member at Indian Association of
+                        dermatologist ,Venenrologist and Leprologist.
+                        Dr.Poojitha consistently strives to update her knowledge
+                        and technical know-how in order to be able to give best
+                        treatment to patients who seek her care. She has been
+                        trained in Cosmetic Dermatology and Dermatosurgery in
+                        several workshops in India. Good skin care involves
+                        going below the skin surface to understand the root
+                        cause of the problem. Hence its incredibly important to
+                        choose the right dermatologist. Dr.Poojitha personally
+                        consults ,analyses and treats each patient to bring out
+                        their natural best.
+                      </span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -509,7 +566,27 @@
                     Periodontologist & Implantologist
                   </div>
                   <div class="team_text">
-                    <!-- <p>Ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr Suman Basavaraju is a Periodontologist &
+                      Implantologist. Working as a Professor in Department of
+                      Periodontology JSS <span id="dots1">...</span
+                      ><span id="more1"
+                        >Dental College & Hospital, Mysore. She Graduated from
+                        the esteemed Govt Dental College & Hospital. She was
+                        awarded PhD from JSS Academy of Higher Education and
+                        Research for her Doctoral studies on stem cells. Having
+                        more than 2 decades of experience in Clinical
+                        Periodontology she is Specialized in Periodontal
+                        Regenerative procedures. She has guided many post
+                        graduate and PhD students in her department. She is a
+                        passionate Esthetic and Cosmetic Dental specialist. Has
+                        many national and international publications to her
+                        credit.
+                      </span>
+                    </p>
+                    <button onclick="myFunction1()" id="myBtn1">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -527,7 +604,26 @@
                   <div class="team_name"><a href="#">Dr Avinash</a></div>
                   <div class="team_title">Consultant Aestethic Dentist</div>
                   <div class="team_text">
-                    <!-- <p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr Avinash is particularly focused on Aesthetic Dentistry
+                      and smile design. He has completed his graduation from the
+                      Bapuji Dental College and <span id="dots2">...</span
+                      ><span id="more2"
+                        >Hospital, Davangere, in the year 2002 and
+                        post-graduation in Periodontology from JSS Dental
+                        College and Hospital, Mysore in 2007. He has Fellowship
+                        in Aesthetic Dentistry from ILAMED and the University of
+                        Griesfield, Germany. He is your friendly dentist and his
+                        gentle approach during treatment comforts the patient.
+                        He is an academician with more than 15 years of
+                        experience with many publications in national and
+                        international journals to his credit and has guided many
+                        postgraduate students.
+                      </span>
+                    </p>
+                    <button onclick="myFunction2()" id="myBtn2">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -545,7 +641,32 @@
                   <div class="team_name"><a href="#">Dr Bhagyalakshmi</a></div>
                   <div class="team_title">Consultant Orthodontist</div>
                   <div class="team_text">
-                    <!-- <p>Ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr Bhagyalakshmi has completed her graduation and
+                      post-graduation in Orthodontics from the prestigious
+                      Government Dental College and Research Institute,
+                      Bangalore. She has also completed her PhD in
+                      <span id="dots3">...</span
+                      ><span id="more3"
+                        >Dentistry from JSS Academy of Higher Education and
+                        Research, Mysore. Dr.Bhagyalakshmi is a “Breathe
+                        Healthy“ consultant at JSS Hospital Mysore. She focuses
+                        on identifying problem at an early age and provide
+                        correction services for the condition. She is also an
+                        academician with 13 years of experience and has
+                        published many papers in national and international
+                        journals. She has delivered guest lectures at many
+                        conferences in India and other countries. She is also an
+                        authorized Myobrace provider and trained Invisalign
+                        specialist in India and Abroad. She is one of the
+                        leading Invisalign provider in Mysore. Currently,
+                        Dr.Bhagyalakshmi is working as an Associate Professor at
+                        JSS Dental College and Hosptial, Mysore.
+                      </span>
+                    </p>
+                    <button onclick="myFunction3()" id="myBtn3">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -565,7 +686,26 @@
                     Consultant Cosmetic Dentist and Endodontist
                   </div>
                   <div class="team_text">
-                    <!-- <p>Ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr Ramya is an efficient & skillful clinician who has
+                      worked in various prestigious institutions as Assistant
+                      Professor. Her areas of expertise include Cosmetic
+                      Dentistry and <span id="dots4">...</span
+                      ><span id="more4"
+                        >Endodontics. She has enormous experience in the field
+                        of conservative dentistry & endodontics. She has served
+                        in this field for more than 18 years. Her emphasis on
+                        patient comfort as well as keeping up-to-date with the
+                        latest advancements in dentistry enables her to provide
+                        patients quality care for her patients. Her approach
+                        combines care, compassion, understanding and knowledge
+                        which helps her have successful clinical outcomes till
+                        date.
+                      </span>
+                    </p>
+                    <button onclick="myFunction4()" id="myBtn4">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -612,7 +752,29 @@
                   <div class="team_name"><a href="#">Dr Ravi H S</a></div>
                   <div class="team_title">Consultant Plastic Surgeon</div>
                   <div class="team_text">
-                    <!-- <p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr.Ravi.H.S is highly regarded as one of the best cosmetic
+                      and Hair Transplant surgeons in Mysore with chores of
+                      surgeries to his credit over the years. He completed his
+                      MBBS and <span id="dots5">...</span
+                      ><span id="more5"
+                        >MS from Mysore Medical College. He also finished his
+                        MCh in Plastic Surgery from NHL medical college,
+                        Ahmedabad. He is a naturally gifted surgeon with
+                        clinical acumen, known for his innovative ideas
+                        especially for research activities. He is a regular
+                        attendee of various conferences and seminars related to
+                        the field and has credited many papers to his name on
+                        national and international platforms. He is trained in
+                        the field of Cosmetic Surgery at various centres around
+                        the world including Mercy Hospital, Buffalo, New York .
+                        He is adept and renowned for hair transplantation and
+                        LASER procedures.
+                      </span>
+                    </p>
+                    <button onclick="myFunction5()" id="myBtn5">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -872,6 +1034,98 @@
       gtag("js", new Date());
 
       gtag("config", "UA-23581568-13");
+    </script>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction4() {
+        var dots = document.getElementById("dots4");
+        var moreText = document.getElementById("more4");
+        var btnText = document.getElementById("myBtn4");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction5() {
+        var dots = document.getElementById("dots5");
+        var moreText = document.getElementById("more5");
+        var btnText = document.getElementById("myBtn5");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
     </script>
   </body>
 </html>
