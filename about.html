@@ -48,7 +48,8 @@
       #more2,
       #more3,
       #more4,
-      #more5 {
+      #more5,
+      #more6 {
         display: none;
       }
       .team_text button {
@@ -63,7 +64,7 @@
         display: inline-block;
         font-size: 16px;
       }
-      .team_text{
+      .team_text {
         padding: 0 25px;
       }
     </style>
@@ -76,7 +77,7 @@
         <div
           class="header_content d-flex flex-row align-items-center jusity-content-start trans_400"
         >
-        <img
+          <img
             src="images/Copy of Blue White Cicle Swan Beauty Logo.jpg"
             width="40"
             height="40"
@@ -85,7 +86,9 @@
           <!-- Logo -->
           <div class="logo">
             <a href="#">
-              <div style="font-size: 22px">Whiteswan<span>Aesthetics</span></div>
+              <div style="font-size: 22px">
+                Whiteswan<span>Aesthetics</span>
+              </div>
               <div style="font-size: 10px">Benchmark in Aesthetic Care</div>
             </a>
           </div>
@@ -523,9 +526,7 @@
                         their natural best.
                       </span>
                     </p>
-                    <button onclick="myFunction()" id="myBtn">
-                      Read more
-                    </button>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
                   </div>
                 </div>
               </div>
@@ -798,7 +799,23 @@
                   <div class="team_name"><a href="#">Dr Akshatha</a></div>
                   <div class="team_title">Consultant Plastic Surgeon</div>
                   <div class="team_text">
-                    <!-- <p>Ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p> -->
+                    <p>
+                      Dr Akshatha is a skilled general surgeon and exceptional
+                      plastic surgeon. Her expertise in the field of plastic
+                      surgery covers hand, face and breast reconstruction along
+                      with aesthetic and<span id="dots6">...</span
+                      ><span id="more6"
+                        >micro surgery. Dr Akshatha focuses on combining her
+                        techniques to tailor her treatment plan to benefit the
+                        best outcome for her patients. She is two-time Gold
+                        medallist in MS & MCH in university. She also has many
+                        papers to her credit in both national and international
+                        platform.
+                      </span>
+                    </p>
+                    <button onclick="myFunction6()" id="myBtn6">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -1121,6 +1138,21 @@
         var dots = document.getElementById("dots5");
         var moreText = document.getElementById("more5");
         var btnText = document.getElementById("myBtn5");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction6() {
+        var dots = document.getElementById("dots6");
+        var moreText = document.getElementById("more6");
+        var btnText = document.getElementById("myBtn6");
 
         if (dots.style.display === "none") {
           dots.style.display = "inline";
