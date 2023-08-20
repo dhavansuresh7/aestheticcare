@@ -319,15 +319,11 @@
 	}
 	.extra_disc > div:first-child
 	{
-		font-size: 48px;
-	}
-	.extra_disc > div:last-child
-	{
-		font-size: 20px;
+		font-size: 37px;
 	}
 	.extra_title
 	{
-		font-size: 56px;
+		font-size: 45px;
 	}
 	.newsletter
 	{
